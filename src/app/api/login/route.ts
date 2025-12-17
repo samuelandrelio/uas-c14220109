@@ -17,7 +17,7 @@ export async function login(formData: FormData) {
       throw new Error(error.message);
     }
 
-    redirect('/dashboard');
+    redirect('/profile');
   } catch (error) {
     throw error;
   }
